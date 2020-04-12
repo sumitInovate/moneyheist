@@ -1,0 +1,122 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo-img{
+    width: 20%;
+}
+.container-fluid{
+    padding: 1% 3%;
+    background-image: url("images/professor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 350px;
+}
+.nav-item{
+    margin-left: auto;
+}
+
+
+/* ;
+*/
+
+/* title */
+
+#title{
+    text-align: center;
+    padding: 13% 10%;
+    color: #fff;
+}
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+
+
+/* How it works */
+
+#hiw{
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    padding: 5% 10%;
+}
+
+.steps{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 5%;
+}
+
+.icon{
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #1e3839;
+}
+
+.hiw-heading{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+/* reviews */
+
+#reviews{
+    background-color: #1e3839;
+    color: #8f8f8f;
+    padding: 8% 10%;
+}
+
+.review-info{
+    font-size: 11px;
+}
+
+h6{
+    margin: 10px 0 50px;
+}
+.profile-img{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.last-prof{
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+#footer{
+    background-color: #fff;
+    padding: 4% 17%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-icon{
+    margin: 20px 10px;
+}
+
+
+
+@media (max-width:870px){
+    h1{
+        font-size: 3rem;
+    }
+    .steps{
+        margin: 20px auto;
+    }
+
+}
